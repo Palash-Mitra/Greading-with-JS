@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS class 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-box">
+            <h1>Result</h1>
+            <div class="p-g-t">
+                <h2>percentage - <span class="per"> </span></h2>
+                <h2>Grade - <span class="Gra"> </span></h2>
+                <h2>Total - <span class="to"> </span></h2>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="right-box">
+                <input type="number" id="c" placeholder="c programming" />
+                <input type="number" id="mt" placeholder="Math" />
+                <input type="number" id="ph" placeholder="php" />
+                <input type="number" id="ja" placeholder="java" />
+                <input type="number" id="csa" placeholder="computer system architecture" />
+                <input type="number" id="js" placeholder="Java Script" />
+                <input type="number" id="eng" placeholder="English" />
+                <button type="button" onclick="show_result()">Show Result</button>
+            </div>
+        </div>
+
+        <div class="result">
+            <h2></h2>
+        </div>
+    </div>
+    
+    <script src="./JS/app.js"></script>
+</body>
+</html>
